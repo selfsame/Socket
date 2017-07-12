@@ -1,0 +1,1895 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"orig",
+				"original_view"
+			],
+			[
+				"names",
+				"namespacedecl"
+			],
+			[
+				"make-",
+				"make-health-bar"
+			],
+			[
+				"flip",
+				"flip-sprite"
+			],
+			[
+				"point",
+				"point-texts"
+			],
+			[
+				"advance",
+				"advance-snake"
+			],
+			[
+				"set",
+				"set-text"
+			],
+			[
+				"def",
+				"defcomponent"
+			],
+			[
+				"v",
+				"v	arcadia"
+			],
+			[
+				"rig",
+				"rigidbody"
+			],
+			[
+				"make",
+				"make-level"
+			],
+			[
+				"ease",
+				"easeregistry"
+			],
+			[
+				"bucket",
+				"bucket-others"
+			],
+			[
+				"farm",
+				"farm-time"
+			],
+			[
+				"Unity",
+				"UnityEngine"
+			],
+			[
+				"ttw",
+				"ttweens"
+			],
+			[
+				"register",
+				"register_structure"
+			],
+			[
+				"indef",
+				"indefinate_name"
+			],
+			[
+				"room",
+				"room_conts"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"show",
+				"show-ratio"
+			],
+			[
+				"redu",
+				"reduce-operate"
+			],
+			[
+				"Sring",
+				"StringGroup"
+			],
+			[
+				"quat",
+				"quat-lerp"
+			],
+			[
+				"road",
+				"road-intersection"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"final",
+				"final_path"
+			],
+			[
+				"sty",
+				"style_target_mode"
+			],
+			[
+				"sele",
+				"selection_mode"
+			],
+			[
+				"style_",
+				"style_hash"
+			],
+			[
+				"hash",
+				"hash_style"
+			],
+			[
+				"sor",
+				"sort_patterns"
+			],
+			[
+				"sel",
+				"Selector"
+			],
+			[
+				"selection",
+				"selectionchange"
+			],
+			[
+				"style",
+				"style_compiler"
+			],
+			[
+				"total",
+				"total_elements"
+			],
+			[
+				"get",
+				"get_nicest_selector"
+			],
+			[
+				"common",
+				"common_id"
+			],
+			[
+				"pop",
+				"pop_best_group"
+			],
+			[
+				"open",
+				"open_callbacks"
+			],
+			[
+				"_",
+				"_fp_page_css"
+			],
+			[
+				"CSS",
+				"CSSRuleSetProxy"
+			],
+			[
+				"com",
+				"compile_sheet"
+			],
+			[
+				"comp",
+				"compare_selectors"
+			],
+			[
+				"user",
+				"user_css"
+			],
+			[
+				"rulese",
+				"ruleset_proxy"
+			],
+			[
+				"se",
+				"selector_source"
+			],
+			[
+				"is",
+				"is_class_contained_in_selection"
+			],
+			[
+				"resize",
+				"resize_tab_labels"
+			],
+			[
+				"pagelayer",
+				"pagelayer_tools_right"
+			],
+			[
+				"describe",
+				"describe_inside"
+			],
+			[
+				"deb",
+				"debug_tool"
+			],
+			[
+				"select",
+				"select_label_class"
+			],
+			[
+				"upd",
+				"update_selection_set"
+			],
+			[
+				"selected",
+				"selected_elements"
+			],
+			[
+				"paren",
+				"parent_path"
+			],
+			[
+				"success",
+				"success_callback"
+			],
+			[
+				"goog",
+				"goog_file_setup"
+			],
+			[
+				"files",
+				"files_loaded"
+			],
+			[
+				"brow",
+				"browser_options"
+			],
+			[
+				"storage_",
+				"_storage_list"
+			],
+			[
+				"succ",
+				"success_callback"
+			],
+			[
+				"stora",
+				"storage_select"
+			],
+			[
+				"folder",
+				"folder_children"
+			],
+			[
+				"mim",
+				"mime_imgs"
+			],
+			[
+				"file",
+				"file_system"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Searching 131 files for \"subprocess\" (regex, case sensitive)\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/Context.sublime-menu:\n    3      {\"command\": \"repl_kill\", \"caption\": \"Kill\"},\n    4  	{\"command\": \"repl_restart\", \"caption\": \"Restart\"},\n    5: 	{\"command\": \"subprocess_repl_send_signal\", \"caption\": \"Send other SIGNAL\"}\n    6  ]\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/Default (Linux).sublime-keymap:\n   97  		]\n   98  	},\n   99: 	{ \"keys\": [\"shift+ctrl+c\"], \"command\": \"subprocess_repl_send_signal\", \"args\": {\"signal\": 2},  // sigint\n  100  	\"context\":\n  101  		[\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/Default (OSX).sublime-keymap:\n  117  		]\n  118  	},\n  119: 	{ \"keys\": [\"shift+ctrl+c\"], \"command\": \"subprocess_repl_send_signal\", \"args\": {\"signal\": 2},  // sigint\n  120  	\"context\":\n  121  		[\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/LICENSE-LIB.txt:\n    9  - Persistent history depends on buzhug library by Pierre Quentel. (http://buzhug.sourceforge.net/ buzhug is published under the revised BSD licence.\n   10  \n   11: - subprocess_repl depends on killableprocess by Peter Astrand, Mike Taylor and Mikeal Rogers. Please see killableprocess.py for details.\n   12  \n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings:\n    1  {\n    2  	// default_extend_env are used to augment any environment variables\n    3: 	// that should be visible for all subprocess repls launched within\n    4  	// SublimeREPL. This is a very good place to add PATH extension\n    5  	// once \"PATH\": \"{PATH}:/home/username/mylocalinstalls/bin\" or whatever\n    .\n   20  	\"persistent_history_enabled\": true,\n   21  \n   22: 	// By default SublimeREPL leaves REPL view open once the underlying subprocess\n   23  	// dies or closes connection. This is useful when the process dies for an unexpected\n   24  	// reason as it allows you to inspect it output. If you want. Setting this\n   ..\n   29  	// a proper environment. Often leading to problems with finding interpreters\n   30  	// or not using the ones affected by changes in ~/.profile / *rc files\n   31: 	// This command is used as a workaround, it's launched before any subprocess\n   32  	// repl starts and it's output is parsed as an environment\n   33  	\"getenv_command\": [\"/bin/bash\", \"--login\", \"-c\", \"env\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Clojure/Main.sublime-menu:\n   16                       \"id\": \"repl_clojure\",\n   17                       \"args\": {\n   18:                         \"type\": \"subprocess\",\n   19                          \"encoding\": \"utf8\",\n   20                          \"cmd\": {\"windows\": [\"lein.bat\", \"repl\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/ClojureScript/Main.sublime-menu:\n   16                       \"id\": \"repl_clojure\",\n   17                       \"args\": {\n   18:                         \"type\": \"subprocess\",\n   19                          \"encoding\": \"utf8\",\n   20                          \"cmd\": {\"windows\": [\"lein.bat\", \"trampoline\", \"repl\"],\n   ..\n   40                       \"id\": \"repl_clojurescript_browser\",\n   41                       \"args\": {\n   42:                         \"type\": \"subprocess\",\n   43                          \"encoding\": \"utf8\",\n   44                          \"cmd\": {\"windows\": [\"lein.bat\", \"trampoline\", \"cljsbuild\", \"repl-listen\"],\n   ..\n   58                       \"id\": \"repl_clojurescript_scripts_figwheel\",\n   59                       \"args\": {\n   60:                         \"type\": \"subprocess\",\n   61                          \"encoding\": \"utf8\",\n   62                          \"cmd\": {\"windows\": [\"lein\", \"run\", \"-m\", \"clojure.main\", \"--init\", \"scripts/figwheel.clj\"],\n   ..\n   76                       \"id\": \"repl_clojurescript\",\n   77                       \"args\": {\n   78:                         \"type\": \"subprocess\",\n   79                          \"encoding\": \"utf8\",\n   80                          \"cmd\": {\"windows\": [\"lein.bat\", \"trampoline\", \"cljsbuild\", \"repl-rhino\"],\n   ..\n   94                       \"id\": \"repl_clojurescript_figwheel\",\n   95                       \"args\": {\n   96:                         \"type\": \"subprocess\",\n   97                          \"encoding\": \"utf8\",\n   98                          \"cmd\": {\"windows\": [\"lein.bat\", \"trampoline\", \"cljsbuild\", \"repl-rhino\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/CoffeeScript/Main.sublime-menu:\n   13                   \"caption\": \"CoffeeScript\",\n   14                   \"args\": {\n   15:                     \"type\": \"subprocess\",\n   16                      \"encoding\": \"utf8\",\n   17                      \"cmd\": [\"coffee\", \"-i\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/CommonLisp/Main.sublime-menu:\n   18                       \"mnemonic\": \"C\",\n   19                       \"args\": {\n   20:                         \"type\": \"subprocess\",\n   21                          \"encoding\": \"utf8\",\n   22                          \"external_id\": \"lisp\",\n   ..\n   33                       \"mnemonic\": \"S\",\n   34                       \"args\": {\n   35:                         \"type\": \"subprocess\",\n   36                          \"encoding\": \"utf8\",\n   37                          \"external_id\": \"lisp\",\n   ..\n   48                       \"mnemonic\": \"G\",\n   49                       \"args\": {\n   50:                         \"type\": \"subprocess\",\n   51                          \"encoding\": \"utf8\",\n   52                          \"external_id\": \"lisp\",\n   ..\n   63                       \"mnemonic\": \"A\",\n   64                       \"args\": {\n   65:                         \"type\": \"subprocess\",\n   66                          \"encoding\": \"utf8\",\n   67                          \"external_id\": \"lisp\",\n   ..\n   78                       \"mnemonic\": \"B\",\n   79                       \"args\": {\n   80:                         \"type\": \"subprocess\",\n   81                          \"encoding\": \"utf8\",\n   82                          \"external_id\": \"lisp\",\n   ..\n   93                       \"mnemonic\": \"M\",\n   94                       \"args\": {\n   95:                         \"type\": \"subprocess\",\n   96                          \"encoding\": \"utf8\",\n   97                          \"external_id\": \"lisp\",\n   ..\n  108                       \"mnemonic\": \"E\",\n  109                       \"args\": {\n  110:                         \"type\": \"subprocess\",\n  111                          \"encoding\": \"utf8\",\n  112                          \"external_id\": \"lisp\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Elixir/Main.sublime-menu:\n   13                   \"caption\": \"Elixir\",\n   14                   \"args\": {\n   15:                     \"type\": \"subprocess\",\n   16                      \"encoding\": \"utf8\",\n   17                      \"cmd\": [\"iex\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Erlang/Main.sublime-menu:\n   13                   \"caption\": \"Erlang\",\n   14                   \"args\": {\n   15:                     \"type\": \"subprocess\",\n   16                      \"encoding\": \"utf8\",\n   17                      \"cmd\": [\"erl\", \"-i\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/F/Main.sublime-menu:\n   14                   \"mnemonic\": \"F\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"external_id\": \"fsharp\",\n   18                      \"encoding\": \"utf8\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/GDB/Main.sublime-menu:\n   14                   \"mnemonic\": \"D\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": \"utf8\",\n   18                      \"cmd\": [\"gdb\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Groovy/Main.sublime-menu:\n   14                   \"mnemonic\": \"G\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": \"utf8\",\n   18                      \"external_id\": \"groovy\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Io/Main.sublime-menu:\n   14                   \"mnemonic\": \"I\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": \"utf8\",\n   18                      \"cmd\": {\"linux\": [\"io\", \"${packages}/SublimeREPL/config/Io/repl.io\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Lua/Main.sublime-menu:\n   14                   \"mnemonic\": \"L\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": \"utf8\",\n   18                      \"cmd\": [\"lua\", \"-i\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Main.sublime-menu.template:\n   13                  //  \"mnemonic\": \"m\",\n   14                  //  \"args\": {\n   15:                 //     \"type\": \"subprocess|telnet\",\n   16                  //     \"encoding\": \"utf8\",\n   17                  //     \"cmd\": [\"bash\", \"-i\"] or \"bash -i\" on windows,\n   18                  //     \"cwd\": \"$file_path\",\n   19:                 //     \"env\": {}, // clean environment for subprocess repl\n   20                  //     \"extend_env\": {}, // variables to be added to standard env\n   21                  //     \"cmd_postfix\": \"\\n\", // postfix that will be automatically added after a line in repl\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Matlab/Main.sublime-menu:\n   14                   \"mnemonic\": \"M\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": \"utf8\",\n   18                      \"cmd\": [\"matlab\", \"-nodesktop\",\"-nosplash\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Maxima/Main.sublime-menu:\n   14                   \"mnemonic\": \"M\",\n   15                    \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": \"utf8\",\n   18                      \"cmd\": [\"maxima\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/NodeJS/Main.sublime-menu:\n   14                   \"mnemonic\": \"N\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": \"utf8\",\n   18                      \"cmd\": {\"linux\": [\"node\", \"${packages}/SublimeREPL/config/NodeJS/repl.js\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/OCaml/Main.sublime-menu:\n   17                  \"mnemonic\":\"t\",\n   18                  \"args\":{\n   19:                   \"type\":\"subprocess\",\n   20                    \"external_id\":\"ocaml\",\n   21                    \"encoding\":\"utf8\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Octave/Main.sublime-menu:\n   14                   \"mnemonic\": \"O\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": \"utf8\",\n   18                      \"cmd\": [\"octave\", \"-i\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/PHP/Main.sublime-menu:\n   14                   \"mnemonic\": \"P\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": {\"windows\": \"$win_cmd_encoding\",\n   18                                   \"linux\": \"utf-8\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Perl/Main.sublime-menu:\n   14                   \"mnemonic\": \"P\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": \"utf8\",\n   18                      \"cmd\": [\"perl\",\"${packages}/SublimeREPL/config/Perl/re.pl\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Prolog/Main.sublime-menu:\n   14              \"mnemonic\":\"P\",\n   15              \"args\":{\n   16:               \"type\":\"subprocess\",\n   17                \"external_id\":\"prolog\",\n   18                \"encoding\":\"utf8\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Python/Main.sublime-menu:\n   18                       \"mnemonic\": \"P\",\n   19                       \"args\": {\n   20:                         \"type\": \"subprocess\",\n   21                          \"encoding\": \"utf8\",\n   22                          \"cmd\": [\"python\", \"-i\", \"-u\"],\n   ..\n   35                       \"mnemonic\": \"D\",\n   36                       \"args\": {\n   37:                         \"type\": \"subprocess\",\n   38                          \"encoding\": \"utf8\",\n   39                          \"cmd\": [\"python\", \"-i\", \"-u\", \"-m\", \"pdb\", \"$file_basename\"],\n   ..\n   49                       \"mnemonic\": \"R\",\n   50                       \"args\": {\n   51:                         \"type\": \"subprocess\",\n   52                          \"encoding\": \"utf8\",\n   53                          \"cmd\": [\"python\", \"-u\", \"$file_basename\"],\n   ..\n   63                       \"mnemonic\": \"I\",\n   64                       \"args\": {\n   65:                         \"type\": \"subprocess\",\n   66                          \"encoding\": \"utf8\",\n   67                          \"autocomplete_server\": true,\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/R/Main.sublime-menu:\n   14                   \"mnemonic\": \"R\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"external_id\": \"r\",\n   18                      \"additional_scopes\": [\"tex.latex.knitr\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Racket/Main.sublime-menu:\n   14                          \"mnemonic\": \"R\",\n   15                          \"args\": {\n   16:                             \"type\": \"subprocess\",\n   17                              \"encoding\": \"utf8\",\n   18                              \"cmd\": [\"racket\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Rails/Main.sublime-menu:\n   17                   \"args\":\n   18                    {\n   19:                     \"type\": \"subprocess\",\n   20                      \"encoding\": {\"windows\": \"$win_cmd_encoding\",\n   21                                   \"linux\": \"utf-8\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Ruby/Main.sublime-menu:\n   17                  \"mnemonic\":\"R\",\n   18                  \"args\":{\n   19:                   \"type\":\"subprocess\",\n   20                    \"external_id\":\"ruby\",\n   21                    \"encoding\":\"utf8\",\n   ..\n   50                  \"mnemonic\":\"I\",\n   51                  \"args\":{\n   52:                   \"type\":\"subprocess\",\n   53                    \"external_id\":\"ruby\",\n   54                    \"encoding\":\"utf8\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/SML/Main.sublime-menu:\n   13                   \"id\": \"repl_sml\",\n   14                   \"args\": {\n   15:                     \"type\": \"subprocess\",\n   16                      \"encoding\": \"utf8\",\n   17                      \"cmd\": [\"sml\"],\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Scala/Main.sublime-menu:\n   18                       \"mnemonic\": \"s\",\n   19                       \"args\": {\n   20:                         \"type\": \"subprocess\",\n   21                          \"encoding\": \"utf8\",\n   22                          \"external_id\": \"scala\",\n   ..\n   39                       \"mnemonic\": \"B\",\n   40                       \"args\": {\n   41:                         \"type\": \"subprocess\",\n   42                          \"encoding\": \"utf8\",\n   43                          \"external_id\": \"scala\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Scheme/Main.sublime-menu:\n   18                       \"mnemonic\": \"S\",\n   19                       \"args\": {\n   20:                         \"type\": \"subprocess\",\n   21                          \"encoding\": \"utf8\",\n   22                          \"external_id\": \"scheme\",\n   ..\n   36                       \"mnemonic\": \"G\",\n   37                       \"args\": {\n   38:                         \"type\": \"subprocess\",\n   39                          \"encoding\": \"utf8\",\n   40                          \"external_id\": \"gauche\",\n   ..\n   54                       \"mnemonic\": \"P\",\n   55                       \"args\": {\n   56:                         \"type\": \"subprocess\",\n   57                          \"encoding\": \"utf8\",\n   58                          \"external_id\": \"petite\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/ScriptCS/Main.sublime-menu:\n   14                   \"mnemonic\": \"C\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"external_id\": \"scriptcs\",\n   18                      \"encoding\": \"utf8\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Shell/Main.sublime-menu:\n   14                   \"mnemonic\": \"S\",\n   15                   \"args\": {\n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": {\"windows\": \"$win_cmd_encoding\",\n   18                                   \"linux\": \"utf-8\",\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/Tower/Main.sublime-menu:\n   14                   \"args\": {\n   15                      \"cwd\": \"$file_path\",               \n   16:                     \"type\": \"subprocess\",\n   17                      \"encoding\": \"utf8\",\n   18                      \"cmd\": [\"tower\", \"console\", \"-c\"],    \n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/doc/index.rst:\n   82  | Ctrl+l        | Ctrl+l        | Shift+Ctrl+c   | repl_clear                       | Clear REPL screen                               |\n   83  +---------------+---------------+----------------+----------------------------------+-------------------------------------------------+\n   84: | Shift+Ctrl+c  | Shift+Ctrl+c  | *Unsupported*  | subprocess_repl_send_signal      | Send SIGINT to REPL                             |\n   85  +---------------+---------------+----------------+----------------------------------+-------------------------------------------------+\n   86  \n   ..\n  128      \"default_extend_env\": {\"PATH\": \"{PATH}:/home/myusername/bin\"}\n  129  \n  130: To start a REPL subprocess with Leiningen project environment, open your `project.clj` \n  131  and, while it is the current file, use the menu or the command palette to start the REPL.\n  132  \n  133: * In subprocess REPL mode, the REPL is launched as a subprocess of the editor. \n  134    This is the mode you should use right now.\n  135  * The telnet mode no longer works because of the changes in Leiningen and nrepl.\n  ...\n  148  | Key           | Meaning                                                                                                            |\n  149  +===============+====================================================================================================================+\n  150: | Ctrl+F12 c s  | Launch a subprocess Clojure REPL                                                                                   |\n  151  +---------------+--------------------------------------------------------------------------------------------------------------------+\n  152  | Ctrl+F12 c t  | Connect to a running Clojure REPL                                                                                  |\n  ...\n  181  \n  182     Sublime is unable to locate the binary that is needed to launch your REPL in the search paths available to it. This is\n  183:    because the subprocess REPLs are launched, as, well, subprocesses of Sublime environment, which may be different from\n  184     your interactive environment, especially if your REPL is installed in a directory that is not in a system-wide path (e.g \n  185     `/usr/local/bin` or '/home/myusername` on Linux, `My Documents` on Windows etc)\n  ...\n  198     here briefly. \n  199  \n  200:    If you already have an  interactive shell for Foo, you can use the subprocess\n  201     REPL. For an example, see PHP or Lua integration in `config/PHP`.\n  202  \n  ...\n  266  modification. For these integrations, no additional Python code is needed.\n  267  They use one of the standard REPL classes as the base, as documented below. In\n  268: most cases, this will be the subprocess based REPL class. An example of such\n  269  an integration is Lua.\n  270  \n  ...\n  286                     \"mnemonic\": \"L\",\n  287                     \"args\": {\n  288:                       \"type\": \"subprocess\",\n  289                        \"encoding\": \"utf8\",\n  290                        \"cmd\": [\"lua\", \"-i\"],\n  ...\n  347  SublimeREPL:\n  348  \n  349: * Class :class:`SubprocessRepl` for  subprocess-based REPLs. The process\n  350:   running in the REPL is a subprocess of the editor. The input and   output of\n  351    the process is connected to the output and the input of the REPL\n  352  \n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/lang_integration.py:\n  103              {\n  104                  \"encoding\":\"utf8\",\n  105:                 \"type\": \"subprocess\",\n  106                  \"autocomplete_server\": True,\n  107                  \"extend_env\": {\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/repls/__init__.py:\n    1  from .repl import *\n    2: from .subprocess_repl import *\n    3  from .sublimehaskell_repl import *\n    4  from .telnet_repl import *\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/repls/killableprocess/killableprocess.py:\n    1: # killableprocess - subprocesses which can be reliably killed\n    2  #\n    3: # Parts of this module are copied from the subprocess.py file contained\n    4  # in the Python distribution.\n    5  #\n    .\n   37  \"\"\"killableprocess - Subprocesses which can be reliably killed\n   38  \n   39: This module is a subclass of the builtin \"subprocess\" module. It allows\n   40: processes that launch subprocesses to be reliably killed on Windows (via the Popen.kill() method.\n   41  \n   42  It also adds a timeout argument to Wait() for a limited period of time before\n   ..\n   48  \"\"\"\n   49  \n   50: import subprocess\n   51  import sys\n   52  import os\n   ..\n   56  \n   57  try:\n   58:     from subprocess import CalledProcessError\n   59  except ImportError:\n   60      # Python 2.4 doesn't implement CalledProcessError\n   ..\n   99          pass\n  100  \n  101: class Popen(subprocess.Popen):\n  102      kill_called = False\n  103      if mswindows:\n  ...\n  141                             errread, errwrite):\n  142              if not isinstance(args, str):\n  143:                 args = subprocess.list2cmdline(args)\n  144  \n  145              # Always or in the create new process group\n  ...\n  294                      return group_wait(timeout)\n  295                  else:\n  296:                     subprocess.Popen.wait(self)\n  297                      return self.returncode\n  298  \n  ...\n  305                      return group_wait(timeout)\n  306                  else:\n  307:                     if subprocess.poll() is not None:\n  308                          returncode = self.returncode\n  309                  time.sleep(.5)\n  ...\n  313  \n  314          return self.returncode\n  315:     # We get random maxint errors from subprocesses __del__\n  316      __del__ = lambda self: None\n  317  \n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/repls/powershell_repl.py:\n    5  import os\n    6  import re\n    7: from . import subprocess_repl\n    8  \n    9  # PowerShell in interactive mode shows no prompt, so we must hold it by hand.\n   ..\n   14  # In this case we proceeds sending user input without modifications.\n   15  \n   16: class PowershellRepl(subprocess_repl.SubprocessRepl):\n   17      TYPE = \"powershell\"\n   18      PREPENDER = b\".\"\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/repls/sublimehaskell_repl.py:\n    3  import sublime\n    4  \n    5: from .subprocess_repl import SubprocessRepl\n    6  \n    7  def get_settings():\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/repls/sublimeutop_repl.py:\n    6  except ImportError:\n    7      from Queue import Queue\n    8: from .subprocess_repl import SubprocessRepl\n    9  \n   10  class SublimeUTopRepl(SubprocessRepl):\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/repls/subprocess_repl.py:\n    5  from __future__ import absolute_import, unicode_literals, print_function, division\n    6  \n    7: import subprocess\n    8  import os\n    9  import sys\n   ..\n   54  \n   55  class SubprocessRepl(Repl):\n   56:     TYPE = \"subprocess\"\n   57  \n   58      def __init__(self, encoding, cmd=None, env=None, cwd=None, extend_env=None, soft_quit=\"\", autocomplete_server=False, **kwds):\n   ..\n   88                          cwd=self.cwd(cwd, settings),\n   89                          env=env,\n   90:                         stderr=subprocess.STDOUT,\n   91:                         stdin=subprocess.PIPE,\n   92:                         stdout=subprocess.PIPE)\n   93  \n   94          if POSIX:\n   ..\n  142          if getenv_command and POSIX:\n  143              try:\n  144:                 output = subprocess.check_output(getenv_command)\n  145                  lines = output.decode(\"utf-8\", errors=\"replace\").splitlines()\n  146                  env = dict(line.split('=', 1)  for line in lines)\n\n91 matches across 44 files\n\n\nSearching 831 files for \"arcadia-repl\" (regex, case sensitive)\n\n/home/self/.config/sublime-text-3/Packages/Socket/socket.sublime-project:\n    9  		},\n   10  		{\n   11: 			\"path\": \"/home/self/.config/sublime-text-3/Packages/arcadia-repl\"\n   12  		},\n   13  		{\n\n/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/ClojureScript/Main.sublime-menu:\n   25                                  \"linux\": \"$file_path\",\n   26                                  \"osx\": \"$file_path\"},\n   27:                         \"syntax\": \"Packages/arcadia-repl/Clojure.tmLanguage\",\n   28                          \"external_id\": \"clojure\",\n   29                          \"extend_env\": {\"INSIDE_EMACS\": \"1\"}\n   ..\n   49                                  \"linux\": \"$file_path\",\n   50                                  \"osx\": \"$file_path\"},\n   51:                         \"syntax\": \"Packages/arcadia-repl/Clojure.tmLanguage\",\n   52                          \"external_id\": \"clojure\",\n   53                          \"extend_env\": {\"INSIDE_EMACS\": \"1\"}\n   ..\n   67                                  \"linux\": \"$file_path\",\n   68                                  \"osx\": \"$file_path\"},\n   69:                         \"syntax\": \"Packages/arcadia-repl/Clojure.tmLanguage\",\n   70                          \"external_id\": \"clojure\",\n   71                          \"extend_env\": {\"INSIDE_EMACS\": \"1\"}\n   ..\n   85                                  \"linux\": \"$file_path\",\n   86                                  \"osx\": \"$file_path\"},\n   87:                         \"syntax\": \"Packages/arcadia-repl/Clojure.tmLanguage\",\n   88                          \"external_id\": \"clojure\",\n   89                          \"extend_env\": {\"INSIDE_EMACS\": \"1\"}\n   ..\n  103                                  \"linux\": \"$file_path\",\n  104                                  \"osx\": \"$file_path\"},\n  105:                         \"syntax\": \"Packages/arcadia-repl/Clojure.tmLanguage\",\n  106                          \"external_id\": \"clojure\",\n  107                          \"extend_env\": {\"INSIDE_EMACS\": \"1\"}\n\n/home/self/.config/sublime-text-3/Packages/User/Clojure.sublime-settings:\n    1  {\n    2: \"color_scheme\": \"Packages/arcadia-repl/clojure-dark.tmTheme\"\n    3  ,\"line_numbers\": true\n    4  ,\"gutter\":true\n\n/home/self/.config/sublime-text-3/Packages/arcadia-repl/Clojure.sublime-settings:\n    5      \"draw_minimap_border\": false,\n    6      \"word_wrap\": false,\n    7:     \"color_scheme\": \"Packages/arcadia-repl/clojure-dark.tmTheme\",\n    8      \"ignored_packages\":\n    9      [\n\n/home/self/.config/sublime-text-3/Packages/arcadia-repl/Context.sublime-menu:\n    1  [\n    2      {\n    3:         \"id\": \"arcadia-repl\",\n    4          \"caption\": \"Start Arcadia REPL\",\n    5          \"command\": \"start_arcadia_repl\"\n\n/home/self/.config/sublime-text-3/Packages/arcadia-repl/README.md:\n    4  * right click in file view to bring up context menu, and \"start Arcadia REPL\"\n    5  \n    6: ![arcadia-repl3](https://cloud.githubusercontent.com/assets/2467644/17498186/b5a83e26-5d93-11e6-85d8-d6eb75c8160a.gif)\n    7  \n    8: ### [default keys](https://github.com/selfsame/arcadia-repl/blob/master/Default%20(Windows).sublime-keymap)\n    9  \n   10  \n\n/home/self/.config/sublime-text-3/Packages/arcadia-repl/arcadia_repl.py:\n    9  history = []\n   10  \n   11: print(\"arcadia-repl loaded!\")\n   12  \n   13  def create_repl(window):\n   ..\n   15      (group, index) = window.get_view_index(current_view)\n   16      repl = window.new_file()\n   17:     repl.set_name(\"*arcadia-repl*\")\n   18      repl.settings().set(\"arcadia_repl\", True)\n   19      repl.settings().set(\"scope_name\", \"source.arcadia\")\n   ..\n   23      repl.settings().set(\"word_wrap\", False)\n   24      repl.set_scratch(True)\n   25:     repl.set_syntax_file(\"Packages/arcadia-repl/Clojure.tmLanguage\")\n   26      window.set_view_index(repl, group + 1, len(window.views_in_group(group + 1)))\n   27      window.focus_view(current_view)\n   ..\n   32  def get_repl(window):\n   33      for v in window.views():\n   34:         if v.name() == \"*arcadia-repl*\": \n   35              return v\n   36      for w in sublime.windows():\n   37          for v in w.views():\n   38:             if v.name() == \"*arcadia-repl*\": \n   39                  return v\n   40  \n\n16 matches across 7 files\n",
+			"settings":
+			{
+				"buffer_size": 29395,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "todo.clj",
+			"settings":
+			{
+				"buffer_size": 646,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/self/.config/sublime-text-3/Packages/User/Clojure.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/self/.config/sublime-text-3/Packages/SublimeREPL/repls/subprocess_repl.py",
+			"settings":
+			{
+				"buffer_size": 8585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "killableprocess.py",
+			"settings":
+			{
+				"buffer_size": 12825,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "subprocess_pipe.py",
+			"settings":
+			{
+				"buffer_size": 821,
+				"line_ending": "Unix",
+				"name": "import subprocess"
+			}
+		},
+		{
+			"file": "socket_pipe.py",
+			"settings":
+			{
+				"buffer_size": 1149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Socket.sublime-commands",
+			"settings":
+			{
+				"buffer_size": 1833,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "repl.py",
+			"settings":
+			{
+				"buffer_size": 1747,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "commands.py",
+			"settings":
+			{
+				"buffer_size": 10247,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Lumo 1.6.0\nClojureScript 1.9.671\nNode.js v8.1.3\n Docs: (doc function-name-here)\n       (find-doc \"part-of-name-here\")\n Source: (source function-name-here)\n Exit: Control+D or :cljs/quit or exit\n\n[1G[0Jcljs.user=> [13G(map inc (range 3))\n(1 2 3)\n[1G[0Jcljs.user=> [13G(map inc (range 3))\n(1 2 3)\n:foo\n[1G[0Jcljs.user=> [13G:foo\n:foo\n:bar\n[1G[0Jcljs.user=> [13G:bar\n:bar\n\n[1G[0Jcljs.user=> [13G\n",
+			"settings":
+			{
+				"buffer_size": 413,
+				"line_ending": "Unix",
+				"name": "Lumo (42)",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 322.0,
+		"last_filter": "Sock",
+		"selected_items":
+		[
+			[
+				"Sock",
+				"Socket: lumo"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"togg",
+				"Toggle ScopeAlways"
+			],
+			[
+				"z",
+				"z:AAAPackageDev: New Settings File"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"zcon",
+				"z:AAAPackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"AAA",
+				"z:AAAPackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"packageRe",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"Browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packageres",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"start",
+				"Start Ruby REPL"
+			],
+			[
+				"syntax: cloj",
+				"Set Syntax: ClojureScript"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax",
+				"Set Syntax: Arcadia"
+			],
+			[
+				"Package",
+				"Package Control: Add Channel"
+			],
+			[
+				"Snippet: ",
+				"Snippet: arcadia"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 487.0
+	},
+	"console":
+	{
+		"height": 173.0,
+		"history":
+		[
+			"str(4)",
+			"import workers",
+			"import repl",
+			"from repl import Repl",
+			"import pipe",
+			"len(x)",
+			"x[0]",
+			"x",
+			"x.append(2)",
+			"x.append(1)",
+			"x = []",
+			"re.search(\"[\\\\n]*$\", \"abcd\\n\\n\").group()",
+			"re.search(\"[\\\\n]*$\", \"abcd\\n\\n\")",
+			"import re",
+			"re.search(\"[\\\\n]*$\", \"abcd\\n\\n\")",
+			"version",
+			"view.settings().get(\"syntax\")",
+			"view.settings().get(\"scope\")",
+			"view.settings().get(\"scopeName\")",
+			"view.settings().get(\"scope_name\")",
+			"view.settings()",
+			"window",
+			"\",\".join([\"a\",\"b\"])",
+			"\",\".join([1,2,3,4])",
+			"str(('InvalidOperationException', 'Unable to resolve symbol: k in this context'))",
+			"str(24)",
+			"string()",
+			"String()",
+			"\"asdf\" + ('InvalidOperationException', 'Unable to resolve symbol: k in this context')",
+			"toString(('InvalidOperationException', 'Unable to resolve symbol: k in this context'))",
+			"String(('InvalidOperationException', 'Unable to resolve symbol: k in this context'))",
+			"string(('InvalidOperationException', 'Unable to resolve symbol: k in this context'))",
+			"re.findall(r\"(\\w[^:\\W\\n]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.search(r\"(\\w[^:\\W\\n]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.match(r\"(\\w[^:\\W\\n]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"(\\w[^:\\W\\n]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"\\w([^:\\W\\n]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"^\\W([^:\\W\\n]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"^\\w([^:\\W\\n]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"x",
+			"x = re.findall(r\"([^:\\W\\n]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"x",
+			"x = re.findall(r\"(^[^:\\W\\n]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"x.groups()",
+			"x.groups",
+			"x = re.search(r\"(^[^:\\W\\n]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"x.groups()",
+			"x = re.search(r\"([^:\\W\\n]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"x.groups()",
+			"x = re.search(r\"^([^:\\W]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"x.groups()",
+			"x = re.search(r\"([^:\\W]+): ([^\\n]+)\\n\", \" :\\nSystem.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"x.groups()",
+			"x = re.search(r\"([^:\\W]+): ([^\\n]+)\\n\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"x.groups()",
+			"x = re.match(r\"([^:\\W]+): ([^\\n]+)\\n\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"x.groups()",
+			"x = re.match(r\"([^:\\W]+): ([^\\n]+)\\n\", \" \\n:System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.match(r\"([^:\\W]+): ([^\\n]+)\\n\", \" \\n:System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"([^:\\W]+): ([^\\n]+)\\n\", \" \\n:System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"([^:\\W]+): ([^\\n]+)\\n\", \" :System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"([^:\\W]+): ([^\\n]+)\\n\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"($[^:\\W]+): ([^\\n]+)\\n\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"(^[^:\\W]+): ([^\\n]+)\\n\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"^([^:\\W]+): ([^\\n]+)\\n\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.match(r\"([^:\\W]+): ([^\\n]+)\\n\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"([^:\\W]+): ([^\\n]+)\\n\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"([^:\\W]+): ([^\\n]+\\n)\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"([^:\\w]+): ([^\\n]+\\n)\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"^([^:\\w]+):([^\\n]+\\n)\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"^([^:\\w]+): ([^\\n]+\\n)\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"([^:]+):([^\\n]+\\n)+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n\")",
+			"re.findall(r\"([^:]+):([^\\n]+\\n)+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \")",
+			"re.findall(r\"([^:]+):([^\\n]+\\n)+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \").groups()",
+			"re.search(r\"([^:]+):([^\\n]+\\n)+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \").groups()",
+			"re.match(r\"([^:]+):([^\\n]+\\n)+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \").groups()",
+			"re.match(r\"([^:]+):([^\\n]+)\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \").groups()",
+			"re.match(r\"([^:]+):+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \").groups()",
+			"re.match(r\"([^:]+):([^\\n]+)\\n(\\w*at)+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \").groups()",
+			"re.match(r\"([^:]+):([^\\n]+)\\n(\\w*at\\w[^\\n])+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \").groups()",
+			"re.match(r\"([^:]+):([^\\n]+)\\n(\\w*at\\w[^\\n]+\\n)+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \").groups()",
+			"re.search(r\"([^:]+):([^\\n]+)\\n(\\w*at\\w[^\\n]+\\n)+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \").groups()",
+			"re.match(r\"([^:]+):([^\\n]+)\\n(\\w*at\\w[^\\n]+\\n)+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\\n  at clojure.lang.Compiler.Resolve (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \\n  at clojure.lang.Compiler.AnalyzeSymbol (clojure.lang.Symbol symbol) [0x00000] in <filename unknown>:0 \").groups()",
+			"re.match(r\"([^:]+):([^\\n]+)\\n(\\w*at\\w[^\\n]+\\n)+\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\").groups()",
+			"re.match(r\"([^:]+):([^\\n]+)\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\").groups()",
+			"re.search(r\"([^:]+):([^\\n]+)\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\").groups()",
+			"re.search(r\"([^:]+):([^\\n]+)\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\").groups",
+			"re.search(r\"([^:]+):([^\\n]+)\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\")",
+			"re.match(r\"([^:]+):([^\\n]+)\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\")",
+			"re.find(r\"([^:]+):([^\\n]+)\", \"System.InvalidOperationException: Unable to resolve symbol: k in this context\")",
+			"import re",
+			"view.substr(view.find(r\"\\\"[^\\\"]*\\\"|;[^\\n]*\\n|\\(|\\[|\\{|\\)|\\]|\\}\", view.sel()[0].begin()))",
+			"view.substr(view.find(r\"\\\"[^\\\"]*\\\"|;[^\\n]*|\\(|\\[|\\{|\\)|\\]|\\}\", view.sel()[0].begin()))",
+			"view.find(r\"\\\"[^\\\"]*\\\"|;[^\\n]*|\\(|\\[|\\{|\\)|\\]|\\}\", view.sel()[0].begin())",
+			"x",
+			"x, y = 6, 7",
+			"y",
+			"x, y = [6, 7]",
+			"clear",
+			"view.start()",
+			"\"p\" in (\"a\", \"p\", \"v\")",
+			"view.find(r\"\\[[^\\]]+\\]|\\([^\\)]+\\)|\\{[^\\}]+\\}\", 0)",
+			"view.find(r\"\\[[^\\]]+\\]|\\([^\\)]+\\)|\\{[^\\}]+\\}\", 0).end()",
+			"view.substr(view.find(r\"\\[[^\\]]+\\]|\\([^\\)]+\\)|\\{[^\\}]+\\}\", 0))",
+			"view.substr(view.find(r\"\\[[^\\]]+\\]|\\([^\\)]+\\)\", 0))",
+			"view.substr(view.find(r\"\\[[^\\]]+\\]\", 300))",
+			"view.substr(view.find(r\"\\[[^\\]]+\\]\", 200))",
+			"view.substr(view.find(r\"\\[[^\\]]+\\]\", 100))",
+			"view.substr(view.find(r\"\\[[^\\]]+\\]\", 40))",
+			"view.substr(view.find(r\"\\[[^\\]]+\\]\", 0))",
+			"view.substr(view.find(r\"\\[[^\\]]+\\]\\w*\", 0))",
+			"view.substr(view.find(r\"\\W*\\[[^\\]]+\\]\\w*\", 0))",
+			"view.substr(view.find(r\"\\W*\\[[^\\]]+\\w*\", 0))",
+			"view.substr(view.find(r\"\\W*\\[[^\\]]+\\W*\", 0))",
+			"view.substr(view.find(r\"\\W*\\[[^\\]+\\]\\W*\", 0))",
+			"view.substr(view.find(r\"\\W*\\[[^\\]]+]\\W*\", 0))",
+			"view.substr(view.find(r\"\\W*([^\\]]+]\\W*\", 0))",
+			"view.substr(view.find(r\"\\W*[\\([^\\]]+]\\W*\", 0))",
+			"view.substr(view.find(r\"\\W*[\\([^\\)]+]\\W*\", 0))",
+			"view.substr(view.find(r\"\\W*(\\([^\\\\)]+)\\W*\", 0))",
+			"view.substr(view.find(r\"\\W*(\\([^\\)]+)\\W*\", 0))",
+			"view.substr(view.find(r\"\\W*(\\([^\\)]+)\\W*\", 10))",
+			"view.substr(view.find(r\"\\W*\\([^\\)]*\\W*\", 10))",
+			"view.substr(view.find(r\"\\W*\\([^\\)]*\\W*\", 0))",
+			"view.substr(view.find(r\"\\W*[^\\)]*\\W*\", 0))",
+			"view.substr(view.find(r\"\\W*[^\\)]\\W*\", 0))",
+			"view.substr(view.find(r\"\\w*[^\\)]\\w*\", 0))",
+			"view.substr(view.find(r\"\\w*[^\\)]\\w*\", 4))"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/self/.config/sublime-text-3/Packages/Socket",
+		"/home/self/.config/sublime-text-3/Packages/SublimeREPL/repls",
+		"/home/self/.config/sublime-text-3/Packages",
+		"/home/self/.config/sublime-text-3/Packages/Clojure"
+	],
+	"file_history":
+	[
+		"/home/self/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/self/.config/sublime-text-3/Packages/SublimeREPL/config/ClojureScript/Main.sublime-menu",
+		"/home/self/.config/sublime-text-3/Packages/arcadia-repl/arcadia_repl.py",
+		"/home/self/.config/sublime-text-3/Packages/User/Clojure.sublime-settings",
+		"/home/self/.config/sublime-text-3/Packages/Socket/todo.clj",
+		"/home/self/.config/sublime-text-3/Packages/Socket/.build",
+		"/home/self/.config/sublime-text-3/Packages/Socket/pipe.py",
+		"/home/self/dev/sculpt/src/editing/tools/AnteriorDepth.js",
+		"/home/self/dev/sculpt/src/editing/tools/LateralDepth.js",
+		"/home/self/dev/sculpt/src/gui/tr/english.js",
+		"/home/self/dev/sculpt/todo.md",
+		"/home/self/dev/sculpt/src/gui/GuiSculpting.js",
+		"/home/self/dev/sculpt/src/drawables/Primitives.js",
+		"/home/self/dev/sculpt/src/editing/tools/Circumference.js",
+		"/home/self/dev/sculpt/src/editing/tools/Tools.js",
+		"/home/self/dev/sculpt/src/misc/Enums.js",
+		"/home/self/dev/sculpt/src/gui/GuiSculptingTools.js",
+		"/home/self/.config/sublime-text-3/Packages/Socket/Default (Linux).sublime-keymap",
+		"/home/self/.config/sublime-text-3/Packages/Socket/Socket.sublime-commands",
+		"/home/self/unity/dungopolis/Assets/hard/Store.cs",
+		"/home/self/unity/dungopolis/Assets/Arcadia/Source/arcadia/internal/state_help.clj",
+		"/home/self/.config/sublime-text-3/Packages/Socket/Default (Windows).sublime-keymap",
+		"/home/self/.config/sublime-text-3/Packages/Socket/Default (OSX).sublime-keymap",
+		"/home/self/.config/sublime-text-3/Packages/Socket/commands.py",
+		"/home/self/.config/sublime-text-3/Packages/Socket/socket_pipe.py",
+		"/home/self/.config/sublime-text-3/Packages/Socket/tenlet.py",
+		"/home/self/unity/dungopolis/dungopolis.sublime-project",
+		"/home/self/unity/dungopolis/Assets/project.clj",
+		"/home/self/unity/dungopolis/Assets/Arcadia/Editor/Repl.cs",
+		"/home/self/unity/procadia/arcadia.sublime-project",
+		"/home/self/unity/landfall/Assets/hard/input.clj",
+		"/home/self/unity/landfall/Assets/hard/core.clj",
+		"/home/self/unity/procadia/Assets/Arcadia/Source/arcadia/compiler.clj",
+		"/home/self/unity/procadia/Assets/Arcadia/Source/arcadia/linear.clj",
+		"/home/self/unity/procadia/Assets/Arcadia/configuration.edn",
+		"/home/selfsame/unity/procadia/Assets/human/core.clj",
+		"/home/selfsame/unity/procadia/Assets/hard/animation.clj",
+		"/home/selfsame/unity/procadia/Assets/hard/core.clj",
+		"/home/selfsame/unity/procadia/Assets/hard/edit.clj",
+		"/home/selfsame/unity/procadia/Assets/hard/life.clj",
+		"/home/selfsame/unity/procadia/Assets/Arcadia/Editor/ClojureRepl.cs",
+		"/home/selfsame/unity/procadia/\"/home/selfsame/unity/procadia/Assets/Arcadia/Editor/ClojureRepl.cs\"",
+		"/home/selfsame/.config/sublime-text-3/Packages/arcadia-repl/arcadia_repl.py",
+		"/home/selfsame/unity/procadia/Assets/Arcadia/Source/arcadia/messages.clj",
+		"/home/selfsame/unity/procadia/Assets/Arcadia/Source/arcadia/repl.clj",
+		"/C/Users/jplur/Desktop/dev/procadia/Assets/coaster/core.clj",
+		"/C/Users/jplur/Desktop/dev/procadia/Assets/coaster/world.clj",
+		"/C/Users/jplur/Desktop/dev/procadia/Assets/hard/input.clj",
+		"/C/Users/jplur/Desktop/dev/procadia/Assets/math/spline.clj",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/User/Clojure/Clojure.sublime-settings",
+		"/C/Users/jplur/Desktop/dev/procadia/arcadia.sublime-workspace",
+		"/C/Users/jplur/Desktop/dev/procadia/arcadia.sublime-project",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/unicode.clj",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/test.cljs",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/Clojure.sublime-settings",
+		"/C/Users/jplur/Desktop/dev/world.cl",
+		"/C/Users/jplur/Desktop/dev/junk.clj",
+		"/C/Users/jplur/Desktop/dev/learnnext/src/learnnext/core.cljs",
+		"/C/Users/jplur/Desktop/dev/learnnext/src/learnnext/data.cljs",
+		"/C/Users/jplur/Desktop/dev/learnnext/src/dense/core.cljs",
+		"/C/Users/jplur/Desktop/dev/learnnext/src/dense/macros.clj",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/test.html",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/Web.sublime-syntax",
+		"/C/Users/jplur/Desktop/dev/packages_backup/Clojure/Clojure.YAML-tmLanguage",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/arcadia_repl.py",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/core.cljs",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/Default.sublime-commands",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/User/Clojure.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/User/Arcadia.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/User/Clojure.sublime-keymap",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/Repl.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/fuck.sublime-project",
+		"/C/Users/jplur/work/dev/final/src/fast/element.cljs",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/repl-dark.tmTheme",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/Default (Windows).sublime-keymap",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/Clojure/Clojure.tmLanguage",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/User/XML.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/ClojureScript/ClojureScript.YAML-tmLanguage",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/Lisp/Lisp.tmLanguage",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/User/Lisp.sublime-settings",
+		"/C/Users/jplur/Downloads/clojure-dark (1).tmTheme",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/clojure-dark.tmTheme",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/ClojureScript/ClojureScript.tmLanguage",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/Clojure/Clojure.tmLanguage.txt",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/User/paredit.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/Repl.tmlanguage",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Installed Packages/Dark Neon Color Scheme.sublime-package",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/Theme - Fox/fox.dark.tmTheme",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/Clojure.tmLanguage",
+		"/C/Users/jplur/Desktop/dev/procadia/Assets/Arcadia/Editor/repl-client.rb",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/text_transfer.py",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/sublimerepl.py",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/Default (Windows).sublime-keymap",
+		"/C/Users/jplur/Desktop/dev/procadia/Assets/Arcadia/Source/arcadia/repl.clj",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/LICENSE",
+		"/C/Users/jplur/Desktop/dev/procadia/Assets/Arcadia/Editor/ClojureRepl.cs",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/Context.sublime-menu",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/config/ClojureScript/Main.sublime-menu",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/config/Clojure/Unity/Main.sublime-menu",
+		"/C/Users/jplur/Desktop/arcadiakit/Assets/arcadia/Compiled/arcadia.core.clj.dll.mdb",
+		"/C/Users/jplur/work/dev/final/final.sublime-workspace",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/text_transfer_backup.txy.py",
+		"/C/Users/jplur/Desktop/dev/pdfjvm/pdf.sublime-project",
+		"/C/Users/jplur/Desktop/dev/pdfjvm/.hgignore",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/repls/subprocess_repl.py",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/config/Clojure/Main.sublime-menu",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/paredit/paredit.sublime-settings",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/ClojureScript/ClojureScript.sublime-settings",
+		"/C/Users/jplur/Desktop/dev/learnnext/src/om/core.cljs",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/config/ClojureScript/Default.sublime-commands",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/messages.json",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/lang_integration.py",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/Default.sublime-commands",
+		"/C/Users/jplur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/Context.sublime-menu",
+		"/C/Users/jplur/Desktop/dev/learnnext/learnnext.sublime-project",
+		"/C/Users/jplur/Desktop/dev/learnnext/src/om/dom.clj",
+		"/C/Users/jplur/Desktop/dev/learnnext/src/pdf/core.cljs",
+		"/C/Users/jplur/Desktop/dev/learnnext/src/heh/core.clj",
+		"/C/Users/jplur/Desktop/dev/learnnext/src/om/dom.cljs",
+		"/C/Users/jplur/Desktop/dev/learnnext/src/pdf/test.cljc"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/self/.config/sublime-text-3/Packages",
+			"/home/self/.config/sublime-text-3/Packages/SublimeREPL",
+			"/home/self/dev/sculpt/src",
+			"/home/self/unity/dungopolis/Assets/Arcadia/Editor",
+			"/home/selfsame/unity/procadia/Assets/human",
+			"/home/selfsame/unity/procadia/Assets/coaster",
+			"/home/selfsame/unity/procadia/Assets/hard",
+			"/home/selfsame/unity/procadia/Assets/Arcadia",
+			"/home/selfsame/unity/procadia/Assets/Arcadia/Editor",
+			"/home/selfsame/unity/procadia/Assets/Arcadia",
+			"C:\\Users\\jplur\\AppData\\Roaming\\Sublime Text 3\\Packages\\SublimeREPL",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final\\src\\fp",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final\\resources\\public\\css",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final\\src\\fp",
+			"C:\\Users\\jplur\\work\\dev\\unity\\demo\\Assets\\arcadia\\Source\\clojure",
+			"C:\\Users\\jplur\\work\\dev\\unity\\LD33Warmup\\Assets\\hard",
+			"C:\\Users\\jplur\\work\\dev\\unity\\LD33Warmup\\Assets\\warmup",
+			"C:\\Users\\jplur\\work\\dev\\unity\\LD33Warmup\\Assets\\hard",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"arcadia-repl",
+			"subprocess",
+			"scale",
+			"Anterior",
+			"ISHKA: ",
+			"\\([^\\)]*\\)",
+			"ISHKA: .*",
+			"QUARK: ",
+			"[",
+			"{",
+			"\\([^\\)]*\\)",
+			"QUARK: .*",
+			"\\\\",
+			"ROM: ",
+			"ROM: .*",
+			"BRUNT: ",
+			"BRUNT.*",
+			"_ctrlSymmetry",
+			"continuous",
+			"}\n",
+			"update",
+			"setVertices",
+			"CIRCUMFERENCE",
+			"Circumference",
+			"Depths",
+			"selfsame",
+			"CIRCUMFERENCE",
+			"Circumference",
+			"prompt",
+			"place_cursor_at_end",
+			"clear",
+			"history",
+			"todo",
+			"place_cursor_at_end",
+			"send",
+			"socket_workers",
+			"SocketEnter",
+			"set_read_only",
+			"SocketPipe",
+			"Force",
+			"resource",
+			"v-",
+			"children",
+			"log",
+			"Updates",
+			"force",
+			"OnGUI",
+			"buffer",
+			"20",
+			" ",
+			"}\n",
+			"]*)",
+			"sexpr",
+			":sexpr",
+			":exp",
+			":expr",
+			"b",
+			"string.quoted.double.lisp",
+			">#?\"</",
+			"([\\:]\\S*)",
+			"string>\\n\\t<string>[^\\<]+",
+			"\\t<string>[^\\<]+",
+			"JP!",
+			"match",
+			"^(;).*$\\n?",
+			":",
+			"[^#]keyword",
+			"[^#]macro",
+			"macro",
+			"FF00FF",
+			"keyword",
+			">\n",
+			"map.",
+			".map",
+			"map",
+			" ",
+			"selected_blocks",
+			"ReplTransferCurrent",
+			"G.prompt",
+			"G.hist",
+			"prompt_index\\[0\\]",
+			"arcadia_repl_enter",
+			"\"\n",
+			"additional_scopes",
+			"clojurescript",
+			"macroexpand",
+			"qualified?",
+			"\\n",
+			"\\t",
+			"\\n\\(",
+			"\\n",
+			"\\r",
+			"if([\\t\\n ]+)",
+			"if",
+			"DEBUG",
+			"prn",
+			"if",
+			"80",
+			"count",
+			"clojure.string",
+			")\n",
+			"% ",
+			" (:",
+			" ;(",
+			"mapv",
+			" (",
+			"preds",
+			"})\n",
+			"pprint",
+			"`(",
+			"preds",
+			"sym",
+			" \n",
+			"\\n",
+			"([0-9]+(\\ |\\t))+",
+			"\\n",
+			"#",
+			"\\n\\t",
+			"#\\w+\\W",
+			"#())",
+			"to-array",
+			"\\.code",
+			"\\.cols",
+			"\\.idx",
+			".idx",
+			"walk-table",
+			", ",
+			"[ \\t]+\\["
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"Exception",
+			"->v3",
+			"\\{\\n\\t",
+			"{\\n\\t",
+			" ",
+			" '",
+			"' ",
+			"\" \"",
+			">\\n",
+			"\\n",
+			">\\n",
+			"",
+			"fp.",
+			"BumpTrigger",
+			"",
+			"h2 class=\"feature\"",
+			"h2 class=\"feature\"\n",
+			"/h2\n",
+			"},\n",
+			"\n}",
+			"\n{",
+			":\n",
+			":\\n",
+			"\"statmod\"",
+			"{%blue}",
+			"{#red}{#bold}",
+			"{#black}",
+			"#",
+			"{#yellow}~{#reset}",
+			"{#yellow}",
+			"{%green}#{yellow}{#bold}~{#reset}{%reset}",
+			"{#green}%{#reset}",
+			"cyan",
+			"magenta",
+			"cyan",
+			"green",
+			"black",
+			"%",
+			",\\n",
+			"  {\\n",
+			"[\\n",
+			"[\\r",
+			"[\\n",
+			"[\\n\\r",
+			"[\\n",
+			"call(",
+			"@given",
+			"scope_while",
+			"B \\033[m",
+			"\\033",
+			"/",
+			"%",
+			"arcadia.",
+			"t",
+			"->go",
+			"o",
+			"\"",
+			"#fddab2",
+			"#fdaa4a",
+			"#fdc88b",
+			"CSSBlockProxy"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29395,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										275,
+										285
+									],
+									[
+										504,
+										514
+									],
+									[
+										754,
+										764
+									],
+									[
+										1094,
+										1104
+									],
+									[
+										1450,
+										1460
+									],
+									[
+										1769,
+										1779
+									],
+									[
+										2200,
+										2210
+									],
+									[
+										2561,
+										2571
+									],
+									[
+										2921,
+										2931
+									],
+									[
+										3219,
+										3229
+									],
+									[
+										3546,
+										3556
+									],
+									[
+										3873,
+										3883
+									],
+									[
+										4191,
+										4201
+									],
+									[
+										4576,
+										4586
+									],
+									[
+										4904,
+										4914
+									],
+									[
+										5151,
+										5161
+									],
+									[
+										5398,
+										5408
+									],
+									[
+										5645,
+										5655
+									],
+									[
+										5892,
+										5902
+									],
+									[
+										6139,
+										6149
+									],
+									[
+										6386,
+										6396
+									],
+									[
+										6708,
+										6718
+									],
+									[
+										7015,
+										7025
+									],
+									[
+										7319,
+										7329
+									],
+									[
+										7628,
+										7638
+									],
+									[
+										7931,
+										7941
+									],
+									[
+										8239,
+										8249
+									],
+									[
+										8593,
+										8603
+									],
+									[
+										8913,
+										8923
+									],
+									[
+										9177,
+										9187
+									],
+									[
+										9598,
+										9608
+									],
+									[
+										9931,
+										9941
+									],
+									[
+										10237,
+										10247
+									],
+									[
+										10592,
+										10602
+									],
+									[
+										10897,
+										10907
+									],
+									[
+										11206,
+										11216
+									],
+									[
+										11547,
+										11557
+									],
+									[
+										11876,
+										11886
+									],
+									[
+										12186,
+										12196
+									],
+									[
+										12441,
+										12451
+									],
+									[
+										12727,
+										12737
+									],
+									[
+										12994,
+										13004
+									],
+									[
+										13313,
+										13323
+									],
+									[
+										13664,
+										13674
+									],
+									[
+										13969,
+										13979
+									],
+									[
+										14303,
+										14313
+									],
+									[
+										14517,
+										14527
+									],
+									[
+										14819,
+										14829
+									],
+									[
+										15133,
+										15143
+									],
+									[
+										15381,
+										15391
+									],
+									[
+										15712,
+										15722
+									],
+									[
+										15961,
+										15971
+									],
+									[
+										16210,
+										16220
+									],
+									[
+										16532,
+										16542
+									],
+									[
+										16845,
+										16855
+									],
+									[
+										17209,
+										17219
+									],
+									[
+										17750,
+										17760
+									],
+									[
+										18096,
+										18106
+									],
+									[
+										18285,
+										18295
+									],
+									[
+										18333,
+										18343
+									],
+									[
+										18824,
+										18834
+									],
+									[
+										19381,
+										19391
+									],
+									[
+										19422,
+										19432
+									],
+									[
+										19825,
+										19835
+									],
+									[
+										20130,
+										20140
+									],
+									[
+										20339,
+										20349
+									],
+									[
+										20530,
+										20540
+									],
+									[
+										20600,
+										20610
+									],
+									[
+										20906,
+										20916
+									],
+									[
+										21125,
+										21135
+									],
+									[
+										21351,
+										21361
+									],
+									[
+										21452,
+										21462
+									],
+									[
+										21660,
+										21670
+									],
+									[
+										21719,
+										21729
+									],
+									[
+										21927,
+										21937
+									],
+									[
+										22015,
+										22025
+									],
+									[
+										22193,
+										22203
+									],
+									[
+										22407,
+										22417
+									],
+									[
+										22624,
+										22634
+									],
+									[
+										22829,
+										22839
+									],
+									[
+										23056,
+										23066
+									],
+									[
+										23261,
+										23271
+									],
+									[
+										23488,
+										23498
+									],
+									[
+										23709,
+										23719
+									],
+									[
+										23940,
+										23950
+									],
+									[
+										24226,
+										24236
+									],
+									[
+										24340,
+										24350
+									],
+									[
+										24641,
+										24651
+									],
+									[
+										24697,
+										24707
+									],
+									[
+										24752,
+										24762
+									],
+									[
+										24908,
+										24918
+									],
+									[
+										25359,
+										25371
+									],
+									[
+										25666,
+										25678
+									],
+									[
+										26004,
+										26016
+									],
+									[
+										26342,
+										26354
+									],
+									[
+										26680,
+										26692
+									],
+									[
+										27018,
+										27030
+									],
+									[
+										27293,
+										27305
+									],
+									[
+										27571,
+										27583
+									],
+									[
+										27774,
+										27786
+									],
+									[
+										28054,
+										28066
+									],
+									[
+										28233,
+										28245
+									],
+									[
+										28426,
+										28438
+									],
+									[
+										28622,
+										28634
+									],
+									[
+										28887,
+										28899
+									],
+									[
+										29156,
+										29168
+									],
+									[
+										29311,
+										29323
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								25670,
+								25670
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 8571.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "todo.clj",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Clojure/Clojure.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/self/.config/sublime-text-3/Packages/User/Clojure.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PackageDev/Syntax Definitions/Sublime Settings.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/self/.config/sublime-text-3/Packages/SublimeREPL/repls/subprocess_repl.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8076,
+								8076
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3069.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "killableprocess.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12825,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12679,
+								12679
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 3060.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "subprocess_pipe.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								592,
+								592
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import subprocess",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Kimbie (dark).tmTheme",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "socket_pipe.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1061,
+								1061
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Kimbie (dark).tmTheme",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Socket.sublime-commands",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1710,
+								1710
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PackageDev/Syntax Definitions/Sublime Commands.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "repl.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								534,
+								534
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Kimbie (dark).tmTheme",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "commands.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3977,
+								3977
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Kimbie (dark).tmTheme",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1319.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								413,
+								413
+							]
+						],
+						"settings":
+						{
+							"gutter": false,
+							"line_numbers": false,
+							"scope_name": "source.clojure",
+							"socket": true,
+							"syntax": "Packages/Clojure/Clojure.sublime-syntax",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 164.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.654117852771,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+	"project": "socket.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"newdiv",
+				"coffee\\newdiv.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "/home/self/.config/sublime-text-3/Packages/SublimeREPL"
+		},
+		{
+			"path": "/home/self/.config/sublime-text-3/Packages/arcadia-repl"
+		},
+		{
+			"path": "/home/self/.config/sublime-text-3/Packages"
+		}
+	]
+}

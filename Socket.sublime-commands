@@ -36,5 +36,25 @@
           "port": 5555,
           "initial": ":hello-world\n"
         }
+    },
+    {
+        "caption": "Socket: lumo",
+        "command": "new_pipe",
+        "args": {
+          "name": "Lumo",
+          "syntax": "Packages/Clojure/Clojure.tmLanguage",
+          "cmd": "lumo",
+          "args": []
+        }
+    },
+    {
+        "caption": "Socket: carp",
+        "command": "new_pipe",
+        "args": {
+          "name": "Carp",
+          "syntax": "Packages/Clojure/Clojure.tmLanguage",
+          "cmd": "carp-lang",
+          "args": []
+        }
     }
 ]

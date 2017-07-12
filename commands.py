@@ -1,5 +1,6 @@
 import sublime, sublime_plugin
 from Socket.socket_pipe import SocketPipe
+from Socket.subprocess_pipe import SubprocessPipe
 from Socket.workers import socket_workers, view_connections
 
 def get_socket(view):
@@ -99,7 +100,7 @@ class SocketInsertTextCommand(sublime_plugin.TextCommand):
         self.written_characters = 0
         
     def run(self, edit, content=""):
-        self.view.insert(edit, self.view.size(), content) #self.written_characters
+        self.view.insert(edit, self.view.size(), str(content)) #self.written_characters
         self.written_characters += len(content)
         self.view.sel().clear()
         self.view.sel().add(sublime.Region(self.view.size(), self.view.size()))
@@ -161,8 +162,6 @@ class NewSocketCommand(sublime_plugin.WindowCommand):
             name = "%s:%s" % (host, port)
         
         title = "%s (%d)" % (name, socketview.id())
-        socketview.set_scratch(True)
-        socketview.settings().set("socket", True)
         socketview.set_name(title)
         socketview.set_syntax_file(syntax)
         sp = SocketPipe(socketview, host, port, type, initial)
@@ -172,6 +171,36 @@ class NewSocketCommand(sublime_plugin.WindowCommand):
         self.connect(original_view, socketview)
         self.window.run_command("focus_group", {"group":0})
     
+class NewPipeCommand(sublime_plugin.WindowCommand):
+    def connect(self, view, to):
+        view_connections[view.id()] = to.id()
+        view.set_status("socket", "Connected to %s " % to.name())
+        
+    def run(self, cmd, args=[], name=None, syntax="", initial=""):
+        original_view = self.window.active_view()
+        (group, index) = self.window.get_view_index(original_view)
+        group_cnt = self.window.num_groups()
+        if group_cnt == 1:
+            self.window.run_command("set_layout", {"rows":[0, 0.75, 1], "cols":[0, 1], "cells":[[0, 0, 1, 1], [0, 1, 1, 2]]})
+            self.window.run_command("focus_group", {"group":1})
+            socketview = self.window.new_file()
+        else:
+            socketview = self.window.new_file()
+            self.window.set_view_index(socketview, group + 1, len(self.window.views_in_group(group + 1)))
+            self.window.focus_view(original_view)
+        if name == None:
+            name = "%s:%s" % (cmd, cmd)
+        
+        title = "%s (%d)" % (name, socketview.id())
+        socketview.set_name(title)
+        socketview.set_syntax_file(syntax)
+        sp = SubprocessPipe(socketview, cmd, args, initial)
+        sp.go()
+        socket_workers[socketview.id()] = sp
+        # connect original view to new socket
+        self.connect(original_view, socketview)
+        self.window.run_command("focus_group", {"group":0})
+
 class NewAdHocSocketCommand(sublime_plugin.WindowCommand):
     def launch(self):
         self.window.run_command("new_socket", {"type": self.type, "port": self.port, "host":self.host})

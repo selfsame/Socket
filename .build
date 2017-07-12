@@ -4,7 +4,10 @@
 	"mods_load_order":
 	[
 		"workers.py",
+		"subprocess_pipe.py",
 		"socket_pipe.py",
+		"repl.py",
+		"killableprocess.py",
 		"commands.py"
 	]
 }
