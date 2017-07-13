@@ -31,8 +31,9 @@ class Repl(threading.Thread):
         self.view.settings().set("word_wrap", False)
 
     def update_view(self):
-        for b in self.buffer:
-            self.view.run_command("socket_insert_text", {"content": b})
+        res = self.carraige_return(self.escape_ansi("".join(self.buffer)))
+        if res != "":
+            self.view.run_command("socket_insert_text", {"content": res})
         self.buffer = []
         if self.running:
             sublime.set_timeout(self.update_view, 100)
@@ -61,3 +62,11 @@ class Repl(threading.Thread):
         
     def run(self):
         pass
+
+    def escape_ansi(self, s):
+        ansi_escape = re.compile(r'(\x9B|\x1B\[)[0-?]*[ -\/]*[@-~]')
+        return ansi_escape.sub('', s)
+
+    def carraige_return(self, s):
+        ansi_escape = re.compile(r'\r\n')
+        return ansi_escape.sub('\n', s)

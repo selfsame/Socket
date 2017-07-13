@@ -15,7 +15,7 @@
   ([ ] research best default key commands (maybe use sublimeREPL's layout))]
 
 '[advanced
-  ([ ] extend to system processes (pipes))
+  ([/] extend to system processes (pipes))
   ([ ] allow customizable command wrapping + namespace sniffing
     ([ ] template with tokens for entered text and regex to apply to current view?))]
 
@@ -27,6 +27,8 @@
 {:asdf
  [#{}]}
 
+(defun joe (n) (* n n))
+(joe 6)
 
 (import IO)
 (import Int)

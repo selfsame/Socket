@@ -56,5 +56,15 @@
           "cmd": "carp-lang",
           "args": []
         }
+    },
+    {
+        "caption": "Socket: common lisp",
+        "command": "new_pipe",
+        "args": {
+          "name": "Common Lisp",
+          "syntax": "Packages/Clojure/Clojure.tmLanguage",
+          "cmd": "sbcl",
+          "args": []
+        }
     }
 ]

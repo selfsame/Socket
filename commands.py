@@ -244,9 +244,12 @@ class SocketEnterCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         s = get_socket(self.view)
         t = entered_text(self.view)
-        s.send(t+"\n")
+        is_pipe = s.view.settings().get("pipe")
         self.view.insert(edit, self.view.size(), "\n")
+        if is_pipe:
+            self.view.replace(edit,sublime.Region(s.prompt, self.view.size()), "")
         place_cursor_at_end(self.view)
+        s.send(t+"\n")
 
 class SocketHistoryCommand(sublime_plugin.TextCommand):
     def run(self, edit, i=0):

@@ -1,5 +1,5 @@
 import subprocess
-import pty, os, re
+import pty, os, re, io
 from Socket.repl import Repl
 import sublime, sublime_plugin
 
@@ -8,6 +8,7 @@ class SubprocessPipe(Repl):
         primary, secondary = pty.openpty()
         self.proc = subprocess.Popen([cmd] + args, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
             shell=True)
+        view.settings().set("pipe", True)
         Repl.__init__(self, view, type, initial)
         
     def on_close(self):
@@ -17,17 +18,12 @@ class SubprocessPipe(Repl):
         self.record_history(str)
         self.proc.stdin.write(str.encode('utf8'))
         self.proc.stdin.flush()
-        #self.proc.communicate(str.encode('utf8'))
         
     def run(self):
+        #input_stream = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')
         while self.running:
-            read = self.proc.stdout.readline() # TODO stderr?
-            self.buffer.append(self.carraige_return(self.escape_ansi(read.decode('utf8'))))
-
-    def escape_ansi(self, s):
-        ansi_escape = re.compile(r'(\x9B|\x1B\[)[0-?]*[ -\/]*[@-~]')
-        return ansi_escape.sub('', s)
-
-    def carraige_return(self, s):
-        ansi_escape = re.compile(r'\r\n')
-        return ansi_escape.sub('\n', s)
+            read = self.proc.stdout.read(1) # TODO stderr?
+            try:
+                self.buffer.append(read.decode('utf8'))
+            except UnicodeDecodeError:
+                self.buffer.append(str(read)[2:-1])
